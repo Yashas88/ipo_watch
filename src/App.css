@@ -1,0 +1,42 @@
+
+/* read more button css - ipoTable page -----------------*/
+
+.read-more-btn {
+  background-color: #198754;
+  color: #fff;
+  border: none;
+  padding: 0.65rem 2rem;
+  border-radius: 0.375rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
+}
+.read-more-btn:hover {
+  background-color: #fff;
+  color: #198754;
+  border: 1px solid #198754;
+}
+
+/* Table styling---------------------------------- */
+
+.custom-table thead th {
+  background-color: #cce5ff; 
+  color: #000;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.custom-table thead th:hover {
+  background-color: #007bff; 
+  color: white;
+}
+
+/* Footer Css------------------ */
+footer a:hover {
+  color: #0dcaf0 !important; /* Bootstrap info color on hover */
+  text-decoration: underline;
+}
+
+.footer-background {
+   background-color: #00273F;
+}
