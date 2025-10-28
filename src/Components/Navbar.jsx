@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from "/src/assets/images/ipowatch-logo.jpeg";
 
 function Navbar() {
   //  <h1>jhfs</h1>
@@ -8,21 +9,13 @@ function Navbar() {
         {/* Brand/Logo */}
         <a className="navbar-brand d-flex align-items-center" href="/">
           <img
-            src="src/assets/images/ipowatch-logo.jpeg"
+            src={logo}
             alt="IPOwatch"
             height="40"
             className="me-2"
           />
-          {/* <span style={{ fontWeight: 500, fontStyle: "italic", color: "#000" }}>
-            <span style={{ color: "#000" }}>iPO</span>
-            <span style={{ color: "#0a0" }}>Watch</span>
-            <svg width="18" height="25" viewBox="0 0 18 25" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ marginLeft: 5 }}>
-              <path d="M0 25V21H3V13H7V9H11V5H15V1H18" stroke="#0a0" strokeWidth="2"/>
-              <path d="M14 4L18 0M18 0V4" stroke="#0a0" strokeWidth="2"/>
-            </svg>
-          </span> */}
+         
         </a>
-        {/* Hamburger */}
         <button
           className="navbar-toggler"
           type="button"
